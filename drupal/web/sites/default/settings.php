@@ -45,7 +45,7 @@
  * - sites/org
  *
  * - sites/default
- *
+ * 
  * Note that if you are installing on a non-standard port number, prefix the
  * hostname with that number. For example,
  * https://www.drupal.org:8080/my-site/test/ could be loaded from
@@ -893,7 +893,6 @@ if (getenv('IS_DDEV_PROJECT') == 'true' && file_exists(__DIR__ . '/settings.ddev
  *
  * Keep this code block at the end of this file to take full effect.
  */
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}

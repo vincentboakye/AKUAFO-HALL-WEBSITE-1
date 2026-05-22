@@ -1,0 +1,5 @@
+# Local Drupal configuration and SQLite DB
+/drupal/web/sites/default/files/local.sqlite
+
+# Ignore generated public files and sync exports from Drupal runtime
+/drupal/web/sites/default/files/

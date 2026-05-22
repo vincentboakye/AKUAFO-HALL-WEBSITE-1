@@ -1,0 +1,12 @@
+name: 'Akuafo Hall'
+type: theme
+core_version_requirement: ^11
+base theme: starterkit_theme
+libraries:
+  - akuafo_hall/global-styling
+regions:
+  header: 'Header'
+  navigation: 'Navigation'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'
